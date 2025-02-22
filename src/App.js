@@ -5,17 +5,17 @@ import { projects } from './projects';
 
 function App() {
   return (
-    <div className="bg-off-white flex flex-col items-center justify-start font-body"> 
+    <main className="bg-off-white flex flex-col items-center justify-start font-body"> 
     {/* Section 1 Landing Page */} 
-    <div className='h-fit w-full  flex flex-col items-center justify-start px-[7.5vw] md:h-[85vh]'> 
+    <section className='min-h-screen w-full  flex flex-col items-center justify-start px-[7.5vw] md:h-[85vh]'> 
       <div className='flex flex-col items-center justify-between w-full pt-[10vh] md:flex-row-reverse '> 
-        <div className='flex flex-col items-center w-72 h-128'><img alt='Mustafa Timbawala' src='Mustafa_PFP.png'></img></div>  
+        <div className='flex flex-col items-center w-72 h-128'><img alt='Mustafa Timbawala - Software Developer Profile ' src='Mustafa_PFP.png'></img></div>  
         <div> 
           <p className='text-3xl font-medium'>Hello! I am</p>
-          <p className='text-highlight text-6xl font-semibold'>Mustafa</p> 
-          <p className='text-highlight text-6xl font-semibold'>Timbawala</p>  
+          <h1 className='text-highlight text-6xl font-semibold'>Mustafa</h1> 
+          <h1 className='text-highlight text-6xl font-semibold'>Timbawala</h1>  
           <div className='flex flex-row pt-4'> 
-            <p className='text-3xl pr-2'>A</p><p className='text-3xl font-semibold '>Software Developer.</p>
+            <p className='text-3xl pr-2'>A</p><h2 className='text-3xl font-semibold '>Software Developer.</h2>
           </div>
           
         </div> 
@@ -26,9 +26,9 @@ function App() {
       </div> 
       <div className="w-[85vw] h-px bg-highlight"></div>
   
-    </div> 
+    </section> 
     {/* Section 2 Skills Page */}  
-    <div className='h-fit w-full flex flex-col items-center justify-start px-[7.5vw] md:h-screen'>  
+    <section className='min-h-screen w-full flex flex-col items-center justify-start px-[7.5vw] md:h-screen'>  
       <div className='pb-[10vh] pt-4'> 
         <p className="font-body text-5xl text-highlight font-medium" >Skills</p>
       </div>  
@@ -90,9 +90,9 @@ function App() {
       </div>
       
       <div className="w-[85vw] h-px mt-[10vh] bg-highlight"></div>
-    </div>
+    </section>
     {/* Section 3 Projects Page Page */}
-    <div className='min-h-screen w-full flex flex-col items-center justify-start px-[7.5vw]' id="Projects"> 
+    <section className='min-h-screen w-full flex flex-col items-center justify-start px-[7.5vw]' id="Projects"> 
          <div> 
             <p className="font-body text-5xl text-highlight font-medium py-[5vh]" >Projects</p> 
          </div> 
@@ -102,11 +102,11 @@ function App() {
            ))}
          </div>
         
-    </div> 
+    </section> 
     <div className="w-[85vw] h-px mt-[10vh] bg-highlight"></div>
      
       
-    </div>
+    </main>
   );
 }
 
