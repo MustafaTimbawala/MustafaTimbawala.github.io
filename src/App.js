@@ -7,7 +7,7 @@ function App() {
   return (
     <main className="bg-off-white flex flex-col items-center justify-start font-body"> 
     {/* Section 1 Landing Page */} 
-    <section className='min-h-screen w-full  flex flex-col items-center justify-start px-[7.5vw] md:h-[85vh]'> 
+    <section className='min-h-[80vh] w-full  flex flex-col items-center justify-start px-[7.5vw] md:h-[85vh]'> 
       <div className='flex flex-col items-center justify-between w-full pt-[10vh] md:flex-row-reverse '> 
         <div className='flex flex-col items-center w-72 h-128'><img alt='Mustafa Timbawala - Software Developer Profile ' src='Mustafa_PFP.png'></img></div>  
         <div> 
@@ -24,9 +24,10 @@ function App() {
       <div className='pt-16 pb-[7.5vh]'> 
         <a href='#Projects' className='scroll-smooth'><button className='text-highlight bg-white rounded-full px-6 py-2 text-lg font-medium hover:font-semibold'>Projects</button></a>
       </div> 
-      <div className="w-[85vw] h-px bg-highlight"></div>
+      
   
-    </section> 
+    </section>  
+    <div className="w-[85vw] h-px mb-[10vh] bg-highlight"></div>
     {/* Section 2 Skills Page */}  
     <section className='min-h-screen w-full flex flex-col items-center justify-start px-[7.5vw] md:h-screen'>  
       <div className='pb-[10vh] pt-4'> 
