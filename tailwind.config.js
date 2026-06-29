@@ -7,9 +7,16 @@ module.exports = {
     extend: {
       colors:{
         'off-white': '#efefe9', 
-        'highlight': '#A52A2B',
+        'gray-white': '#F0F0F0',
+        'highlight-light': '#D9E9CF', 
+        'highlight-medium': '#73946B', 
+        'highlight-heavy': '#537D5D',  
+        'primary': '#FFFFF0', 
+        'accent': '#a6361f'
+
+
       }, 
-      fontFamily: {
+      fontFamily: { 
         'body': ['Montserrat'],
       },
     },

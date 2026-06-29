@@ -1,4 +1,4 @@
-import React, { useState } from "react"; 
+import { useState } from "react"; 
 import { BsList } from "react-icons/bs";
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-off-white w-full max-h-fit">
+    <header className="bg-white w-full max-h-fit">
       {/* Desktop Header */}
       <div className="hidden md:flex flex-row justify-between items-center px-8 py-8">
         <div className="flex flex-row items-center space-x-4">
