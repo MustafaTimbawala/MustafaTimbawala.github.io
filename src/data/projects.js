@@ -1,30 +1,58 @@
-// Here is where I will have a dictionary of projects that I have worked on, so that it is to get the projects statically. 
-export const projects = [ 
-    {
-      name: "Quotis", 
-      tools: ["React Native", "Expo", "Node.js", "Express", "MongoDB", "AWS S3", "GitHub"], 
-      description:"I worked in a team of five to develop a mobile platform for service requests, similar to TaskRabbit and Instagram, allowing users to post jobs with multimedia and select providers based on reviews and preferences. I integrated AWS S3 for secure multimedia storage and used MongoDB for efficient data management. The app was built with React Native and TypeScript to ensure a responsive cross-platform experience.", 
-      githubLink: "https://github.com/UofT-UTSC-CS-sandbox/final-term-project-quotis",
-    },
-    {
-      name: "ShareSpace",
-      tools: ["Python", "Flask", "Mongoose", "PostgreSQL", "GitHub"],
-      description:
-        "Developed a scalable, database-backed social network application using Python Flask, PostgreSQL, and Google Cloud for high availability and robust performance. Integrated advanced portfolio analytics and social networking features, enabling users to manage friends, share stock lists, and write reviews for enhanced collaboration.",
-      githubLink: "https://github.com/MealadE/SharesSpace",
-    },
-    {
-      name: "Carun",
-      tools: ["Figma", "UI/UX"],
-      description:
-        "Using the principles of UI/UX design, a team of 4 other developers and I created a medium fidelity prototype of a  mobile application that allows users to track their driving mistake history, location, and local driving laws allowing for safer and more confident driving. The app is designed to be user-friendly and intuitive, with a focus on providing a seamless user experience.",
-      githubLink: "https://github.com/example-carun",
-    },
-    {
-      name: "CMS HUB",
-      tools: ["Java", "Android Studio", "Firebase", "JUnits", "GitHub", "Jira"],
-      description:
-        "Collaborated with a team to develop a mobile application using Java and Android Studio that allows users to manage their content management systems (CMS) from their mobile devices. The app is designed to be user-friendly and intuitive, with a focus on providing a seamless user experience.",
-      githubLink: "https://github.com/MustafaTimbawala/B07GR12",
-    }, 
-  ];
+// Projects shown on the portfolio. Card layout: name, blurb, tags, github, demo (optional).
+// TODO: swap in real GitHub URLs for AI Resume Tailor, Aural Eyes, and Carun before pushing live.
+export const projects = [
+  {
+    name: "AI Resume Tailor",
+    blurb:
+      "Tailors a resume to any job description using a RAG pipeline, surfacing the most relevant experience in one pass.",
+    tags: ["Python", "FastAPI", "LangChain", "Angular", "PostgreSQL"],
+    github: "#", // TODO: add real repo link
+    demo: "",
+    hasDemo: false,
+  },
+  {
+    name: "Aural Eyes",
+    blurb:
+      "Assistive navigation for visually impaired users — on-device object detection narrated in real time.",
+    tags: ["Flutter", "Python", "YOLO11", "Computer Vision"],
+    github: "#", // TODO: add real repo link
+    demo: "",
+    hasDemo: false,
+  },
+  {
+    name: "Quotis",
+    blurb:
+      "A team-of-five mobile platform for service requests, similar to TaskRabbit — post jobs with multimedia, pick providers by reviews and preferences.",
+    tags: ["React Native", "Expo", "Node.js", "Express", "MongoDB", "AWS S3"],
+    github: "https://github.com/UofT-UTSC-CS-sandbox/final-term-project-quotis",
+    demo: "",
+    hasDemo: false,
+  },
+  {
+    name: "ShareSpace",
+    blurb:
+      "A scalable, database-backed social network for investors — manage friends, share stock lists, and write reviews.",
+    tags: ["Python", "Flask", "PostgreSQL", "MongoDB"],
+    github: "https://github.com/MealadE/SharesSpace",
+    demo: "",
+    hasDemo: false,
+  },
+  {
+    name: "Carun",
+    blurb:
+      "A medium-fidelity mobile prototype, built with a team of 4, for tracking driving mistake history and local driving laws.",
+    tags: ["Figma", "UI/UX"],
+    github: "#", // TODO: current link is a placeholder — add the real one
+    demo: "",
+    hasDemo: false,
+  },
+  {
+    name: "CMS HUB",
+    blurb:
+      "A mobile app, built with a team, for managing content management systems on the go.",
+    tags: ["Java", "Android Studio", "Firebase", "JUnit"],
+    github: "https://github.com/MustafaTimbawala/B07GR12",
+    demo: "",
+    hasDemo: false,
+  },
+];
