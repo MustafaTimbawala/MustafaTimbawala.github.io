@@ -1,9 +1,10 @@
-export const Footer = () => {  
-    const year = new Date().getFullYear(); 
-    return(  
-        
-        <footer className='bg-off-white w-full max-h-fit flex flex-row justify-center items-center px-8 py-8'> 
-            <h1 className="text-highlight">© {year} Mustafa Timbawala. All Rights Reserved.</h1>
-        </footer>
-    )
-}; 
+export const Footer = () => {
+  const year = new Date().getFullYear();
+  return (
+    <footer className="w-full py-6.5 px-[7.5vw] border-t border-bd text-center">
+      <span className="text-[13px] text-tx3">
+        © {year} Mustafa Timbawala · Designed and built in Toronto.
+      </span>
+    </footer>
+  );
+};
