@@ -22,7 +22,7 @@ export default function SkillsSection() {
           {skillGroups.map((group) => (
             <div
               key={group.name}
-              className="bg-surf border border-bd rounded-xl px-4.5 pt-4.5 pb-5"
+              className="bg-surf border border-bd rounded-xl px-5 pt-5 pb-5"
             >
               <div className="text-[13px] font-semibold tracking-wide text-tx3 mb-3.5">
                 {group.name}

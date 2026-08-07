@@ -14,7 +14,7 @@ export const experiences = [
       "title": "Junior Software Developer",
       "organization": "ElleSante",
       "location": "Toronto, Canada", 
-      "period": "Jan. 2025 - Present",
+      "period": "Jan. 2025 - May. 2025",
       "responsibilities": [
         "Developed a user-friendly mobile application interface using Flutter, ensuring smooth navigation and an intuitive user experience.",
         "Developed an online interface using React and Mantine UI, ensuring a smooth and responsive user experience through optimized component structures and efficient state management."
@@ -31,15 +31,5 @@ export const experiences = [
         "Developed the front end using React and Tailwind, ensuring a modern but highly adapted user interface that successfully integrated African cultural design elements with contemporary interface design standards."
       ]
     },
-    {
-      "title": "Web Designer",
-      "organization": "HydraSurvey",
-      "location": "Toronto, Canada", 
-      "period": "Jan. 2025 - May 2025",
-      "responsibilities": [
-        "Used Figma to prototype and redesign HydraSurvey’s website, enhancing SEO and user experience through improved structure and navigation.",
-        "Collaborated with a cross-functional team to design and develop front-end UI/UX components, ensuring a user-centered, visually appealing interface."
-      ]
-    }
 
 ]
