@@ -1,7 +1,7 @@
 export const experiences = [
     {
 
-      "title": "Software Developer/Quality Assurance Engineer",
+      "title": "Software Engineer Intern in Test",
       "organization": "Foresters Financial",
       "location": "Toronto, Canada", 
       "period": "May 2025 - Aug. 2025 ",
@@ -11,7 +11,7 @@ export const experiences = [
       ]
     },
     {
-      "title": "Junior Software Developer",
+      "title": "Software Engineer Intern",
       "organization": "ElleSante",
       "location": "Toronto, Canada", 
       "period": "Jan. 2025 - May. 2025",
